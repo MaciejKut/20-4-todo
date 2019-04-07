@@ -1,0 +1,7 @@
+.TitleClass {
+    text-transform: uppercase;
+    color: rgb(216, 240, 245);
+    background: rgb(107, 107, 98);
+    padding: 20px;
+    border-radius: 10%;
+}

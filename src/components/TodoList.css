@@ -1,0 +1,16 @@
+.ListOfTasks {
+    color: yellow;
+    width: 40vw;
+    background: green;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+.SingleTask {
+    border-radius: 3px;
+    border: 1px solid blue;
+    padding: 2px;
+}

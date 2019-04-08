@@ -8,7 +8,7 @@ const TodoList = props =>
         {props.data.map(task =>
             <div key={task.id}
                 // Tutaj jest problem
-                onClick={() => { props.onClick(task.id) }} className={style.SingleTask}>
+                onClick={() => { props.removeTodo(task.id) }} className={style.SingleTask}>
 
                 <div >{task.id}</div> <div>{task.text}</div>
 
